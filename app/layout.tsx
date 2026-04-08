@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { getClinic, getNavigation } from "@/lib/mockContent";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -74,6 +75,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer clinic={clinic} footerNav={nav.footer} />
+        <Analytics />
       </body>
     </html>
   );

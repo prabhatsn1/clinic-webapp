@@ -18,6 +18,8 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const isHome = pathname === "/";
+  const transparent = isHome && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -34,7 +36,7 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled
+        scrolled || !isHome
           ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-border"
           : "bg-transparent",
       )}
@@ -49,7 +51,7 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
             <span className="w-8 h-8 rounded-lg bg-brand-500 text-white flex items-center justify-center text-sm font-black">
               M
             </span>
-            <span className={cn(scrolled ? "text-brand-800" : "text-white")}>
+            <span className={cn(transparent ? "text-white" : "text-brand-800")}>
               {clinicName}
             </span>
           </Link>
@@ -67,9 +69,9 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
                     "px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200",
                     pathname === item.href
                       ? "text-brand-600 bg-brand-50"
-                      : scrolled
-                        ? "text-slate-700 hover:text-brand-600 hover:bg-brand-50"
-                        : "text-white/90 hover:text-white hover:bg-white/10",
+                      : transparent
+                        ? "text-white/90 hover:text-white hover:bg-white/10"
+                        : "text-slate-700 hover:text-brand-600 hover:bg-brand-50",
                   )}
                 >
                   {item.label}
@@ -97,9 +99,9 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
               href={`tel:${phone}`}
               className={cn(
                 "flex items-center gap-1.5 text-sm font-medium transition-colors",
-                scrolled
-                  ? "text-slate-600 hover:text-brand-600"
-                  : "text-white/80 hover:text-white",
+                transparent
+                  ? "text-white/80 hover:text-white"
+                  : "text-slate-600 hover:text-brand-600",
               )}
               aria-label={`Call us at ${phone}`}
             >
@@ -118,9 +120,9 @@ export default function Header({ navItems, clinicName, phone }: HeaderProps) {
           <button
             className={cn(
               "lg:hidden p-2 rounded-lg transition-colors",
-              scrolled
-                ? "text-slate-700 hover:bg-slate-100"
-                : "text-white hover:bg-white/10",
+              transparent
+                ? "text-white hover:bg-white/10"
+                : "text-slate-700 hover:bg-slate-100",
             )}
             onClick={() => setMenuOpen((v) => !v)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
