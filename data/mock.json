@@ -1,0 +1,752 @@
+{
+  "clinic": {
+    "name": "MedVita Clinic",
+    "tagline": "Exceptional Care, Every Step",
+    "description": "MedVita Clinic has been delivering world-class medical care since 2005. Our team of board-certified specialists combines advanced technology with compassionate service.",
+    "phone": "+1 (555) 234-5678",
+    "email": "hello@medvita.com",
+    "address": {
+      "street": "1420 Wellness Boulevard, Suite 300",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94105"
+    },
+    "hours": [
+      { "days": "Monday – Friday", "hours": "8:00 AM – 7:00 PM" },
+      { "days": "Saturday", "hours": "9:00 AM – 5:00 PM" },
+      { "days": "Sunday", "hours": "10:00 AM – 3:00 PM" }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/medvitaclinic",
+      "linkedin": "https://linkedin.com/company/medvitaclinic",
+      "instagram": "https://instagram.com/medvitaclinic",
+      "facebook": "https://facebook.com/medvitaclinic"
+    },
+    "mapEmbedUrl": "https://maps.google.com/maps?q=San+Francisco+CA&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "stats": [
+      { "label": "Patients Served", "value": "50,000+" },
+      { "label": "Specialist Doctors", "value": "35+" },
+      { "label": "Years of Care", "value": "19+" },
+      { "label": "Patient Satisfaction", "value": "98%" }
+    ],
+    "certifications": [
+      "Joint Commission Accredited",
+      "HIPAA Compliant",
+      "ISO 27001 Certified",
+      "American Medical Association Member"
+    ]
+  },
+  "hero": {
+    "headline": "Your Health, Our Mission",
+    "subheadline": "World-class specialists. Same-day appointments. Transparent pricing.",
+    "cta_primary": { "label": "Book Appointment", "href": "/appointments" },
+    "cta_secondary": { "label": "Meet Our Doctors", "href": "/doctors" },
+    "badge": "Trusted by 50,000+ patients"
+  },
+  "about": {
+    "headline": "Redefining Modern Healthcare",
+    "body": "Founded in 2005, MedVita Clinic has grown into the Bay Area's most trusted multi-specialty practice. We believe exceptional care means blending the latest clinical evidence with genuine human connection. Every patient is a partner—in their diagnosis, treatment plan, and long-term wellness.\n\nOur state-of-the-art facility spans 18,000 sq ft and houses advanced diagnostic imaging, an on-site lab, and private consultation suites. We're committed to zero surprise billing and to answering your questions before you even ask them.",
+    "mission": "To make excellent, evidence-based healthcare accessible, transparent, and patient-centered.",
+    "values": [
+      {
+        "icon": "heart",
+        "title": "Compassion",
+        "body": "Every patient deserves dignity, respect, and a listening ear."
+      },
+      {
+        "icon": "shield",
+        "title": "Integrity",
+        "body": "We are transparent about diagnoses, options, and costs—always."
+      },
+      {
+        "icon": "star",
+        "title": "Excellence",
+        "body": "Board-certified specialists committed to continuous improvement."
+      },
+      {
+        "icon": "users",
+        "title": "Community",
+        "body": "Proudly serving the Bay Area with free health-education events."
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2005",
+        "event": "MedVita opens its doors in the Financial District."
+      },
+      { "year": "2010", "event": "Expanded to a full multi-specialty campus." },
+      {
+        "year": "2015",
+        "event": "Launched digital patient records and telehealth."
+      },
+      {
+        "year": "2020",
+        "event": "Covid response — stood up drive-through testing in 72 hours."
+      },
+      {
+        "year": "2024",
+        "event": "Opened new Wellness Center and Preventive Health wing."
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "srv-001",
+      "slug": "general-medicine",
+      "title": "General Medicine",
+      "short_description": "Comprehensive primary care for all ages, from annual check-ups to chronic disease management.",
+      "description": "Our General Medicine department is your first point of contact for all health concerns. From routine physicals and vaccinations to managing hypertension, diabetes, and respiratory conditions, our internists deliver thorough, evidence-based care with a personal touch.",
+      "icon": "stethoscope",
+      "duration_minutes": 30,
+      "price": 150,
+      "category": "Primary Care",
+      "highlights": [
+        "Annual wellness exams",
+        "Chronic disease management",
+        "Preventive screenings",
+        "Referral coordination"
+      ],
+      "image": "/images/services/general-medicine.jpg"
+    },
+    {
+      "id": "srv-002",
+      "slug": "cardiology",
+      "title": "Cardiology",
+      "short_description": "Advanced heart care including diagnostics, interventional procedures, and cardiac rehabilitation.",
+      "description": "Our Cardiology team specialises in the full spectrum of heart disease—from stress testing and echocardiography to complex interventional procedures. We focus on prevention first, helping you reduce risk factors before they become life-threatening events.",
+      "icon": "heart",
+      "duration_minutes": 45,
+      "price": 280,
+      "category": "Specialty Care",
+      "highlights": [
+        "ECG & Echocardiography",
+        "Cardiac stress tests",
+        "Hypertension management",
+        "Coronary artery screening"
+      ],
+      "image": "/images/services/cardiology.jpg"
+    },
+    {
+      "id": "srv-003",
+      "slug": "dermatology",
+      "title": "Dermatology",
+      "short_description": "Medical and cosmetic dermatology for skin, hair, and nail conditions at every life stage.",
+      "description": "Our board-certified dermatologists diagnose and treat over 3,000 skin conditions, from acne and eczema to melanoma and psoriasis. We also offer cosmetic procedures including laser therapy, chemical peels, and injectable treatments in a medical-grade environment.",
+      "icon": "sparkles",
+      "duration_minutes": 30,
+      "price": 220,
+      "category": "Specialty Care",
+      "highlights": [
+        "Skin cancer screenings",
+        "Acne & eczema treatment",
+        "Cosmetic dermatology",
+        "Laser and light therapies"
+      ],
+      "image": "/images/services/dermatology.jpg"
+    },
+    {
+      "id": "srv-004",
+      "slug": "pediatrics",
+      "title": "Pediatrics",
+      "short_description": "Compassionate, child-friendly care from newborns through adolescence.",
+      "description": "Our pediatric team creates a warm, welcoming environment where children feel safe and parents feel heard. Services include well-child visits, immunisations, ADHD management, asthma care, and adolescent health counselling.",
+      "icon": "baby",
+      "duration_minutes": 30,
+      "price": 165,
+      "category": "Primary Care",
+      "highlights": [
+        "Newborn & well-child visits",
+        "Immunisation schedules",
+        "ADHD & behavioural health",
+        "Adolescent care"
+      ],
+      "image": "/images/services/pediatrics.jpg"
+    },
+    {
+      "id": "srv-005",
+      "slug": "orthopedics",
+      "title": "Orthopedics",
+      "short_description": "Expert care for bones, joints, muscles, and sports injuries—surgical and non-surgical.",
+      "description": "From fracture management and joint replacement consultations to sports medicine and physical therapy coordination, our orthopedic surgeons and physiatrists take a conservative-first approach to getting you back to full function.",
+      "icon": "bone",
+      "duration_minutes": 45,
+      "price": 310,
+      "category": "Specialty Care",
+      "highlights": [
+        "Joint replacement consultations",
+        "Sports injury treatment",
+        "Fracture management",
+        "Minimally invasive surgery"
+      ],
+      "image": "/images/services/orthopedics.jpg"
+    },
+    {
+      "id": "srv-006",
+      "slug": "mental-health",
+      "title": "Mental Health",
+      "short_description": "Evidence-based therapy, psychiatric evaluation, and medication management in a safe space.",
+      "description": "Our licensed therapists and psychiatrists offer individual therapy, couples counselling, and psychiatric services for anxiety, depression, PTSD, and other conditions. Telehealth options ensure you can access support wherever you are.",
+      "icon": "brain",
+      "duration_minutes": 60,
+      "price": 200,
+      "category": "Behavioral Health",
+      "highlights": [
+        "Individual & group therapy",
+        "Psychiatric medication management",
+        "Telehealth sessions",
+        "Crisis resource navigation"
+      ],
+      "image": "/images/services/mental-health.jpg"
+    },
+    {
+      "id": "srv-007",
+      "slug": "radiology",
+      "title": "Radiology & Imaging",
+      "short_description": "On-site X-ray, MRI, CT scan, and ultrasound with rapid turnaround reports.",
+      "description": "Our in-house imaging suite means you don't need to travel across town for diagnostics. Board-certified radiologists interpret results typically within 24 hours, with urgent reads available same-day.",
+      "icon": "scan",
+      "duration_minutes": 60,
+      "price": 350,
+      "category": "Diagnostics",
+      "highlights": [
+        "MRI & CT scans",
+        "Digital X-ray",
+        "Ultrasound",
+        "Rapid report turnaround"
+      ],
+      "image": "/images/services/radiology.jpg"
+    },
+    {
+      "id": "srv-008",
+      "slug": "womens-health",
+      "title": "Women's Health",
+      "short_description": "Comprehensive OB/GYN care covering reproductive health, pregnancy, and menopause.",
+      "description": "Our women's health specialists provide full-spectrum care: annual well-woman exams, contraception counselling, prenatal care, high-risk pregnancy management, fertility consultations, and menopause support.",
+      "icon": "flower",
+      "duration_minutes": 45,
+      "price": 240,
+      "category": "Specialty Care",
+      "highlights": [
+        "Annual well-woman exams",
+        "Prenatal & postnatal care",
+        "Fertility consultations",
+        "Menopause management"
+      ],
+      "image": "/images/services/womens-health.jpg"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep-001",
+      "name": "Primary Care",
+      "slug": "primary-care",
+      "description": "Your healthcare home base — comprehensive care for the whole family.",
+      "icon": "home",
+      "services": ["general-medicine", "pediatrics"]
+    },
+    {
+      "id": "dep-002",
+      "name": "Cardiovascular Center",
+      "slug": "cardiovascular",
+      "description": "State-of-the-art cardiac diagnostics and interventional care.",
+      "icon": "heart",
+      "services": ["cardiology"]
+    },
+    {
+      "id": "dep-003",
+      "name": "Orthopedic & Sports Medicine",
+      "slug": "orthopedic-sports",
+      "description": "Restoring mobility and performance for patients of all ages.",
+      "icon": "activity",
+      "services": ["orthopedics"]
+    },
+    {
+      "id": "dep-004",
+      "name": "Behavioral Health",
+      "slug": "behavioral-health",
+      "description": "Compassionate mental health support in a confidential setting.",
+      "icon": "brain",
+      "services": ["mental-health"]
+    },
+    {
+      "id": "dep-005",
+      "name": "Radiology & Diagnostics",
+      "slug": "radiology-diagnostics",
+      "description": "Cutting-edge imaging with same-day and next-day results.",
+      "icon": "scan",
+      "services": ["radiology"]
+    },
+    {
+      "id": "dep-006",
+      "name": "Dermatology & Aesthetics",
+      "slug": "dermatology-aesthetics",
+      "description": "Medical and cosmetic skin expertise in a spa-like environment.",
+      "icon": "sparkles",
+      "services": ["dermatology"]
+    },
+    {
+      "id": "dep-007",
+      "name": "Women's Health",
+      "slug": "womens-health",
+      "description": "Holistic care through every chapter of a woman's life.",
+      "icon": "flower",
+      "services": ["womens-health"]
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-001",
+      "name": "Dr. Sarah Chen",
+      "title": "MD, FACP",
+      "specialty": "Internal Medicine",
+      "department": "Primary Care",
+      "bio": "Dr. Chen is a board-certified internist who trained at UCSF and brings 15 years of experience in complex chronic disease management. She is passionate about building long-term patient relationships and believes preventive care is the foundation of health.",
+      "education": [
+        "MD – UCSF School of Medicine",
+        "Residency – Stanford University Medical Center",
+        "Fellowship – Mayo Clinic (Internal Medicine)"
+      ],
+      "languages": ["English", "Mandarin"],
+      "services": ["general-medicine"],
+      "photo_url": "/images/doctors/sarah-chen.jpg",
+      "rating": 4.9,
+      "reviews_count": 312,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-002",
+      "name": "Dr. Marcus Williams",
+      "title": "MD, FACC",
+      "specialty": "Cardiology",
+      "department": "Cardiovascular Center",
+      "bio": "Dr. Williams is a fellowship-trained cardiologist specialising in non-invasive imaging and preventive cardiology. He has published over 30 peer-reviewed articles and is a lead investigator in the HEART-PRO clinical trial.",
+      "education": [
+        "MD – Johns Hopkins University School of Medicine",
+        "Residency – Massachusetts General Hospital",
+        "Fellowship – Cleveland Clinic (Cardiology)"
+      ],
+      "languages": ["English", "Spanish"],
+      "services": ["cardiology"],
+      "photo_url": "/images/doctors/marcus-williams.jpg",
+      "rating": 4.8,
+      "reviews_count": 248,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-003",
+      "name": "Dr. Priya Patel",
+      "title": "MD, FAAD",
+      "specialty": "Dermatology",
+      "department": "Dermatology & Aesthetics",
+      "bio": "Dr. Patel is a double board-certified dermatologist in medical, surgical, and cosmetic dermatology. Known for her meticulous technique and aesthetic eye, she has helped thousands achieve healthier skin with minimal downtime.",
+      "education": [
+        "MD – University of Pennsylvania Perelman School of Medicine",
+        "Residency – NYU Langone Health",
+        "Fellowship – Memorial Sloan Kettering (Dermatologic Oncology)"
+      ],
+      "languages": ["English", "Gujarati", "Hindi"],
+      "services": ["dermatology"],
+      "photo_url": "/images/doctors/priya-patel.jpg",
+      "rating": 4.9,
+      "reviews_count": 429,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-004",
+      "name": "Dr. James O'Connor",
+      "title": "MD, FAAP",
+      "specialty": "Pediatrics",
+      "department": "Primary Care",
+      "bio": "Dr. O'Connor has dedicated his career to children's health, with special expertise in developmental paediatrics and adolescent medicine. His friendly, patient approach puts even the most anxious children at ease.",
+      "education": [
+        "MD – University of Michigan Medical School",
+        "Residency – Children's Hospital of Philadelphia",
+        "Board Certified – American Board of Pediatrics"
+      ],
+      "languages": ["English"],
+      "services": ["pediatrics"],
+      "photo_url": "/images/doctors/james-oconnor.jpg",
+      "rating": 4.9,
+      "reviews_count": 507,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-005",
+      "name": "Dr. Aisha Okafor",
+      "title": "MD, FAAOS",
+      "specialty": "Orthopedic Surgery",
+      "department": "Orthopedic & Sports Medicine",
+      "bio": "Dr. Okafor is a fellowship-trained orthopedic surgeon with expertise in arthroscopic surgery and joint preservation. Team physician for two professional Bay Area sports teams, she brings elite athletic performance recovery techniques to everyday patients.",
+      "education": [
+        "MD – Harvard Medical School",
+        "Residency – Hospital for Special Surgery, New York",
+        "Fellowship – Steadman Clinic, Vail CO (Sports Medicine)"
+      ],
+      "languages": ["English", "Yoruba"],
+      "services": ["orthopedics"],
+      "photo_url": "/images/doctors/aisha-okafor.jpg",
+      "rating": 4.8,
+      "reviews_count": 195,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-006",
+      "name": "Dr. Elena Vasquez",
+      "title": "MD, PhD",
+      "specialty": "Psychiatry",
+      "department": "Behavioral Health",
+      "bio": "Dr. Vasquez holds a dual MD/PhD and is a leading researcher in cognitive-behavioural interventions for treatment-resistant depression. She creates tailored, medication-assisted therapy plans and is a fierce advocate for destigmatising mental health care.",
+      "education": [
+        "MD/PhD – Columbia University Medical Center",
+        "Residency – Yale New Haven Hospital (Psychiatry)",
+        "Post-doctoral Research – NIMH"
+      ],
+      "languages": ["English", "Spanish"],
+      "services": ["mental-health"],
+      "photo_url": "/images/doctors/elena-vasquez.jpg",
+      "rating": 4.9,
+      "reviews_count": 374,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-007",
+      "name": "Dr. David Kim",
+      "title": "MD, FACR",
+      "specialty": "Radiology",
+      "department": "Radiology & Diagnostics",
+      "bio": "Dr. Kim is a fellowship-trained body imager with special expertise in cardiac and musculoskeletal MRI. He is committed to clear, jargon-free reports and direct communication with referring physicians and patients.",
+      "education": [
+        "MD – Stanford University School of Medicine",
+        "Residency – UCLA Medical Center (Radiology)",
+        "Fellowship – MGH (Cardiovascular Imaging)"
+      ],
+      "languages": ["English", "Korean"],
+      "services": ["radiology"],
+      "photo_url": "/images/doctors/david-kim.jpg",
+      "rating": 4.7,
+      "reviews_count": 163,
+      "accepting_new_patients": true
+    },
+    {
+      "id": "doc-008",
+      "name": "Dr. Nadia Laurent",
+      "title": "MD, FACOG",
+      "specialty": "Obstetrics & Gynecology",
+      "department": "Women's Health",
+      "bio": "Dr. Laurent is a compassionate OB/GYN with expertise in minimally invasive gynecologic surgery and high-risk obstetrics. She is devoted to empowering women with the information they need to make confident health decisions.",
+      "education": [
+        "MD – Université Paris Descartes",
+        "Residency – UCSF Medical Center (OB/GYN)",
+        "Fellowship – University of Michigan (Maternal-Fetal Medicine)"
+      ],
+      "languages": ["English", "French"],
+      "services": ["womens-health"],
+      "photo_url": "/images/doctors/nadia-laurent.jpg",
+      "rating": 4.9,
+      "reviews_count": 391,
+      "accepting_new_patients": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "tst-001",
+      "name": "Rebecca M.",
+      "location": "San Francisco, CA",
+      "service": "Cardiology",
+      "rating": 5,
+      "body": "Dr. Williams caught an arrhythmia that two other cardiologists had missed. His thoroughness and the way he explained everything—without talking down to me—gave me complete confidence. My heart is literally in better hands.",
+      "date": "2024-11-15",
+      "avatar": "/images/testimonials/rebecca-m.jpg"
+    },
+    {
+      "id": "tst-002",
+      "name": "Carlos R.",
+      "location": "Oakland, CA",
+      "service": "Orthopedics",
+      "rating": 5,
+      "body": "Six months after a ACL reconstruction with Dr. Okafor, I ran my first half marathon. The care from surgery through physical therapy was seamless. The entire team celebrated with me at the finish line—virtually, of course!",
+      "date": "2025-01-22",
+      "avatar": "/images/testimonials/carlos-r.jpg"
+    },
+    {
+      "id": "tst-003",
+      "name": "Sophie T.",
+      "location": "San Jose, CA",
+      "service": "Dermatology",
+      "rating": 5,
+      "body": "I struggled with cystic acne for a decade. After one consultation with Dr. Patel, I had a clear treatment roadmap. Within 4 months my skin had transformed. I wish I had come here sooner.",
+      "date": "2024-12-08",
+      "avatar": "/images/testimonials/sophie-t.jpg"
+    },
+    {
+      "id": "tst-004",
+      "name": "Michael J.",
+      "location": "Palo Alto, CA",
+      "service": "General Medicine",
+      "rating": 5,
+      "body": "MedVita is exactly what healthcare should look like. My appointment started on time, Dr. Chen spent 35 full minutes with me, and I received my lab results the very next morning via the patient portal. Outstanding.",
+      "date": "2025-02-14",
+      "avatar": "/images/testimonials/michael-j.jpg"
+    },
+    {
+      "id": "tst-005",
+      "name": "Anika W.",
+      "location": "Berkeley, CA",
+      "service": "Mental Health",
+      "rating": 5,
+      "body": "Dr. Vasquez changed my life. I had tried three other psychiatrists without success. She correctly identified my treatment-resistant depression, adjusted my protocol, and now I'm functioning at a level I hadn't reached in years.",
+      "date": "2025-03-01",
+      "avatar": "/images/testimonials/anika-w.jpg"
+    },
+    {
+      "id": "tst-006",
+      "name": "Linda K.",
+      "location": "Marin County, CA",
+      "service": "Women's Health",
+      "rating": 5,
+      "body": "My high-risk pregnancy was managed with extraordinary care by Dr. Laurent and her team. I felt supported at every visit and never waited more than 5 minutes. Delivered a beautiful, healthy boy—couldn't be more grateful.",
+      "date": "2025-03-18",
+      "avatar": "/images/testimonials/linda-k.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-001",
+      "category": "Appointments",
+      "question": "How do I book an appointment?",
+      "answer": "You can book online 24/7 through our Appointments page. Select your service, choose a doctor, pick a date, and your preferred time slot. You'll receive an instant confirmation by email and SMS."
+    },
+    {
+      "id": "faq-002",
+      "category": "Appointments",
+      "question": "Can I reschedule or cancel my appointment?",
+      "answer": "Yes. Log in to the Patient Portal or call our front desk at least 24 hours before your appointment. Last-minute cancellations (within 2 hours) may incur a $50 administrative fee."
+    },
+    {
+      "id": "faq-003",
+      "category": "Appointments",
+      "question": "What should I bring to my first appointment?",
+      "answer": "Please bring a valid government-issued ID, your insurance card, a list of current medications, any relevant medical records or imaging, and completed new-patient intake forms (sent to your email upon booking)."
+    },
+    {
+      "id": "faq-004",
+      "category": "Billing",
+      "question": "Which insurance plans do you accept?",
+      "answer": "We are in-network with Blue Cross Blue Shield, Aetna, United Healthcare, Cigna, and most major PPO plans. Please call our billing team at +1 (555) 234-5679 to verify your specific plan before your visit."
+    },
+    {
+      "id": "faq-005",
+      "category": "Billing",
+      "question": "Do you offer self-pay pricing?",
+      "answer": "Yes. Our transparent self-pay rates are listed on the Pricing page. We also offer flexible payment plans for larger procedures. No surprise bills—you'll always know the cost before treatment begins."
+    },
+    {
+      "id": "faq-006",
+      "category": "Telehealth",
+      "question": "Are telehealth visits available?",
+      "answer": "Yes, many of our doctors offer secure video consultations for follow-ups, medication reviews, and initial assessments. Select 'Telehealth' when booking to see available slots."
+    },
+    {
+      "id": "faq-007",
+      "category": "Records",
+      "question": "How do I access my medical records?",
+      "answer": "All records are available in your secure Patient Portal within 24 hours of your visit. To request paper copies, submit a Medical Records Release Form through the portal or at the front desk."
+    },
+    {
+      "id": "faq-008",
+      "category": "Pharmacy",
+      "question": "Do you have an on-site pharmacy?",
+      "answer": "We partner with CVS Pharmacy on-site (ground floor, Suite 101) for prescription fulfilment. E-prescriptions are sent directly so your medication is ready when you check out."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "prc-001",
+      "service": "General Medicine Consultation",
+      "self_pay": 150,
+      "insurance_estimate": "20–40 copay",
+      "duration_minutes": 30,
+      "notes": "Includes vitals, history, physical exam, and care plan."
+    },
+    {
+      "id": "prc-002",
+      "service": "Cardiology Consultation",
+      "self_pay": 280,
+      "insurance_estimate": "30–60 copay",
+      "duration_minutes": 45,
+      "notes": "Comprehensive cardiac risk assessment."
+    },
+    {
+      "id": "prc-003",
+      "service": "Dermatology Consultation",
+      "self_pay": 220,
+      "insurance_estimate": "20–50 copay",
+      "duration_minutes": 30,
+      "notes": "Skin examination + treatment plan."
+    },
+    {
+      "id": "prc-004",
+      "service": "Pediatric Well-Child Visit",
+      "self_pay": 165,
+      "insurance_estimate": "Fully covered (preventive)",
+      "duration_minutes": 30,
+      "notes": "Per AAP guidelines."
+    },
+    {
+      "id": "prc-005",
+      "service": "Orthopedic Consultation",
+      "self_pay": 310,
+      "insurance_estimate": "40–80 copay",
+      "duration_minutes": 45,
+      "notes": "Musculoskeletal exam + X-ray review."
+    },
+    {
+      "id": "prc-006",
+      "service": "Mental Health Therapy Session",
+      "self_pay": 200,
+      "insurance_estimate": "20–40 copay",
+      "duration_minutes": 60,
+      "notes": "Individual 50-minute therapy session."
+    },
+    {
+      "id": "prc-007",
+      "service": "MRI (Body, no contrast)",
+      "self_pay": 650,
+      "insurance_estimate": "Varies by plan",
+      "duration_minutes": 60,
+      "notes": "Inclusive of radiologist report within 24h."
+    },
+    {
+      "id": "prc-008",
+      "service": "Women's Health Consultation",
+      "self_pay": 240,
+      "insurance_estimate": "Fully covered (preventive)",
+      "duration_minutes": 45,
+      "notes": "Annual well-woman exam."
+    }
+  ],
+  "blog": [
+    {
+      "id": "blg-001",
+      "slug": "understanding-your-heart-health",
+      "title": "Understanding Your Heart Health: 7 Numbers You Must Know",
+      "excerpt": "Your heart speaks in numbers — blood pressure, LDL, resting heart rate. Learn what the benchmarks really mean and how to move them in the right direction.",
+      "body": "Heart disease remains the leading cause of death globally, yet most risk factors are modifiable. In this article, Dr. Williams breaks down the seven key biomarkers every adult should monitor…",
+      "author": "Dr. Marcus Williams",
+      "category": "Cardiology",
+      "tags": ["heart health", "prevention", "blood pressure"],
+      "image": "/images/blog/heart-health.jpg",
+      "published_at": "2025-02-10",
+      "read_time_minutes": 6
+    },
+    {
+      "id": "blg-002",
+      "slug": "skin-cancer-prevention-guide",
+      "title": "The Definitive Adult Guide to Skin Cancer Prevention",
+      "excerpt": "Melanoma rates are rising, but the good news is that early detection saves lives. Dr. Patel walks us through what to look for, when to screen, and the sun-protection habits that actually work.",
+      "body": "Skin cancer is the most common cancer in the United States. Yet it's also one of the most preventable…",
+      "author": "Dr. Priya Patel",
+      "category": "Dermatology",
+      "tags": ["skin cancer", "prevention", "dermatology"],
+      "image": "/images/blog/skin-cancer.jpg",
+      "published_at": "2025-01-28",
+      "read_time_minutes": 8
+    },
+    {
+      "id": "blg-003",
+      "slug": "mental-health-myths-debunked",
+      "title": "5 Mental Health Myths Your Psychiatrist Wants to Dispel",
+      "excerpt": "From 'just snap out of it' to 'therapy is only for crisis situations,' Dr. Vasquez confronts the most damaging mental health misconceptions head-on.",
+      "body": "Stigma about mental health remains one of the biggest barriers to care. Let's tackle the most persistent myths…",
+      "author": "Dr. Elena Vasquez",
+      "category": "Mental Health",
+      "tags": ["mental health", "therapy", "psychiatry"],
+      "image": "/images/blog/mental-health.jpg",
+      "published_at": "2025-03-05",
+      "read_time_minutes": 5
+    }
+  ],
+  "careers": [
+    {
+      "id": "car-001",
+      "title": "Registered Nurse – Cardiology",
+      "department": "Cardiovascular Center",
+      "type": "Full-time",
+      "location": "San Francisco, CA",
+      "description": "Join our Cardiology team as a dedicated RN. You will assist with cardiac procedures, patient education, post-procedure monitoring, and triage.",
+      "requirements": [
+        "Active RN license in California",
+        "Minimum 2 years acute-care experience",
+        "ACLS certification preferred",
+        "Excellent communication skills"
+      ],
+      "posted_at": "2025-03-01"
+    },
+    {
+      "id": "car-002",
+      "title": "Medical Assistant – Primary Care",
+      "department": "Primary Care",
+      "type": "Full-time",
+      "location": "San Francisco, CA",
+      "description": "Support our busy primary care physicians with rooming patients, vital signs, phlebotomy, and administrative tasks.",
+      "requirements": [
+        "CMA or RMA certification",
+        "Phlebotomy experience preferred",
+        "EMR proficiency (Epic preferred)",
+        "Bilingual (English/Spanish) a plus"
+      ],
+      "posted_at": "2025-03-15"
+    },
+    {
+      "id": "car-003",
+      "title": "Mental Health Therapist (LMFT/LCSW)",
+      "department": "Behavioral Health",
+      "type": "Part-time / Contract",
+      "location": "San Francisco, CA (Hybrid)",
+      "description": "Provide individual and group therapy for adults with anxiety, depression, and trauma-related conditions within an integrated care model.",
+      "requirements": [
+        "Active LMFT or LCSW license in California",
+        "3+ years post-licensure experience",
+        "Telehealth experience required",
+        "CBT / DBT training preferred"
+      ],
+      "posted_at": "2025-02-20"
+    }
+  ],
+  "navigation": {
+    "main": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      {
+        "label": "Services",
+        "href": "/services",
+        "children": [
+          { "label": "All Services", "href": "/services" },
+          { "label": "Departments", "href": "/departments" }
+        ]
+      },
+      { "label": "Doctors", "href": "/doctors" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Pricing", "href": "/pricing" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "footer": {
+      "company": [
+        { "label": "About", "href": "/about" },
+        { "label": "Careers", "href": "/careers" },
+        { "label": "Contact", "href": "/contact" }
+      ],
+      "services": [
+        { "label": "All Services", "href": "/services" },
+        { "label": "Departments", "href": "/departments" },
+        { "label": "FAQs", "href": "/faq" },
+        { "label": "Pricing", "href": "/pricing" }
+      ],
+      "legal": [
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms of Service", "href": "/terms" },
+        { "label": "Accessibility", "href": "/accessibility" }
+      ]
+    }
+  }
+}
